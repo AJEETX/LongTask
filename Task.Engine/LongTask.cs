@@ -8,7 +8,7 @@ namespace Tasks.Engine
 {
     public class LongRunningTask
     {
-        static string currentPath = AppDomain.CurrentDomain.BaseDirectory+ $"App_Data\\Log-{DateTime.Now.ToString("dd-MMM-yyyy")}.log";
+        static string currentPath = AppDomain.CurrentDomain.BaseDirectory+ $"Data\\Log-{DateTime.Now.ToString("dd-MMM-yyyy")}.log";
         ILogger logger;
         public Task Process(CancellationToken token)
         {
