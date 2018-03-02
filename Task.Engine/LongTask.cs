@@ -28,7 +28,7 @@ namespace Tasks.Engine
                          .CreateLogger();
             logger.Information("Start log", "LongRunningTask");
             logger.Information("=================================");
-            Console.WriteLine("The Origin of the Species".ToMarkdownHeader());
+            Console.WriteLine("The Origin of the LongRunningTask".ToMarkdownHeader());
 
             int i = 0;
             Task task = Task.Run(() => {
@@ -37,10 +37,10 @@ namespace Tasks.Engine
                     ThreadPool.GetAvailableThreads(out worker, out io);
                     Functions.StartProgress($"ThreadID {Thread.CurrentThread.ManagedThreadId}  Worker threads: {worker:N0}  I/O threads: {io:N0}", i);
                     var log = new []{ new { SerialNo = i, ThreadID = Thread.CurrentThread.ManagedThreadId, Workers = worker, IOWorker = io, Time = DateTime.Now.ToString("ddMMMyy") } };
-                    //Console.WriteLine(log.ToMarkdownTable());
+                    Console.WriteLine(log.ToMarkdownTable());
                     //logger.Write(Serilog.Events.LogEventLevel.Information, "LongRunningTask", log.ToPropertyValues<object>());
-                    logger.Information("LongRunningTask", log.ToMarkdownTable());
-                    //logger.Information($"\n{i} ThreadID {Thread.CurrentThread.ManagedThreadId}  Worker threads: {worker:N0}  I/O threads: {io:N0}", "LongRunningTask");
+                    //logger.Information("LongRunningTask", log.ToMarkdownTable());
+                    logger.Information($"\n{i} ThreadID {Thread.CurrentThread.ManagedThreadId}  Worker threads: {worker:N0}  I/O threads: {io:N0}", "LongRunningTask");
                     Thread.Sleep(2000);i++;if (i == 100) i = 0;
                 }
                 Cancel(token);}, token);
