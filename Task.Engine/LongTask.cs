@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Serilog;
 using MarkdownLog;
-namespace Tasks.Engine
+namespace Engine
 {
     public class LongRunningTask
     {

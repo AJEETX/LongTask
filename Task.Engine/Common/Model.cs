@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LongTask.Engine.Common
+namespace Engine.Common
 {
     public class LogData
     {

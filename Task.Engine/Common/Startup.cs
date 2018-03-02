@@ -1,5 +1,7 @@
 ﻿using Microsoft.Owin;
-using Owin; 
+using Owin;
+namespace Engine
+{
     public class Startup
     {
         public void Configuration(IAppBuilder app)
@@ -7,3 +9,4 @@ using Owin;
             app.MapSignalR();
         }
     }
+}
