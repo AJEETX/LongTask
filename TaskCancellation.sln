@@ -6,8 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongTask.Engine", "Task.Engine\LongTask.Engine.csproj", "{BA28609F-778F-40C2-9AB6-7A40CF5408C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webby", "Webby\Webby.csproj", "{A742F13D-D513-4D42-8715-A82A35A9592A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA28609F-778F-40C2-9AB6-7A40CF5408C5} = {BA28609F-778F-40C2-9AB6-7A40CF5408C5}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Task", "Console.Task\Console.Task.csproj", "{5A40B879-755A-4267-990C-B8E85462E472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{DD6E1B76-992E-47E9-AB46-7708530111E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{AFD74531-D8F7-4208-92F3-A8A7E302150A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +37,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA28609F-778F-40C2-9AB6-7A40CF5408C5} = {DD6E1B76-992E-47E9-AB46-7708530111E4}
+		{A742F13D-D513-4D42-8715-A82A35A9592A} = {AFD74531-D8F7-4208-92F3-A8A7E302150A}
+		{5A40B879-755A-4267-990C-B8E85462E472} = {AFD74531-D8F7-4208-92F3-A8A7E302150A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBB46188-7229-4530-BA1F-7FCB8B10954E}
