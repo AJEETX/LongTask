@@ -23,7 +23,7 @@ namespace Tasks.Engine
             logger = new LoggerConfiguration()
                          .MinimumLevel.Information()
                          .WriteTo.Console()
-                         .WriteTo.File($"{currentPath}",rollingInterval: RollingInterval.Minute,
+                         .WriteTo.File($"{currentPath}",rollingInterval: RollingInterval.Hour,
                          restrictedToMinimumLevel:Serilog.Events.LogEventLevel.Information,fileSizeLimitBytes:4096)
                          .CreateLogger();
             logger.Information("Start log", "LongRunningTask");
