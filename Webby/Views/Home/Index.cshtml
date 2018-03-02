@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>
+    <svg width="200" height="45">
+        <text x="40" y="40">Dashboard</text>
+    </svg>
+</h2>
+<div class="form-control">
+    <div>
+        <button id="btnStartProcess" class="btn btn-primary btn-success" onclick="startTask()">
+            <span class="glyphicon glyphicon-ok-circle"></span>
+            Start Task
+        </button>
+
+        <button id="btnStopProcess" class="btn btn-primary  btn-danger" style="display:none" onclick="cancelTask()">
+            <span class="glyphicon glyphicon-ok-circle"></span>
+            Stop Task
+        </button>
+    </div>
+    <div class="col-xs-3" id="mod-progress">
+        <fieldset>
+            <legend>
+                <svg width="120" height="50">
+                    <text x="0" y="40">status...</text>
+                </svg>
+            </legend>
+            <div class="modal-dialog">
+                <div class="text-center">
+                    <div id="result" class="status">
+
+                        <p id="progressBarParagraph2">
+                            <svg width="840" height="40">
+                                <text id="progressBarParagraph" class="clientText" x="0" y="20">
+                                </text>
+                            </svg>
+                        </p>
+                    </div>
+                    <div id="ProgressStripe" class="progress progress-striped active pstripe" style="">
+                        <div id="ProgressMessage" class="progress-bar progress-bar-info pmsg" style=""></div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
