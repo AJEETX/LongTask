@@ -3,7 +3,7 @@ An http-service-based continuous long-running task with cancellation
 
 > [![Build Status](https://travis-ci.org/AJEETX/LongTask.png?branch=master)](https://travis-ci.org/AJEETX/LongTask)
 
-> [![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta)
+> [![dependencies Status](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](https://img.shields.io/badge/dependencies-none-brightgreen.svg)
 
 ### Support or Contact
 
