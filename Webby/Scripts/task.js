@@ -43,6 +43,8 @@ function cancelTask() {
 
 function ProgressBarModal(showHide) {
     if (showHide === 'show') {
+        $('#btnStartProcess').fadeOut('fast');
+        $('#btnStopProcess').fadeIn('fast');
         $("#runningService").css({ "display": "block" });
         $("#mod-progress").css({ "display": "inline-block" });
         $("#mod-progress fieldset").children().css({ "display": "inline-block" });
@@ -55,6 +57,8 @@ function ProgressBarModal(showHide) {
         }
         window.progressBarActive = true;
     } else {
+        $('#btnStartProcess').fadeIn('fast');
+        $('#btnStopProcess').fadeOut('fast');
         $("fieldset").css({ "display": "none" });
         $("#runningService").css({ "display": "none" });
         running = false;
