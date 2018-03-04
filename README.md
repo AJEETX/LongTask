@@ -1,13 +1,16 @@
-# LongTask
-An http-service-based continuous long-running task with cancellation
+# LongTask ![GitHub release](https://img.shields.io/github/release/ajeetx/LongTask.svg?style=for-the-badge)
 
-> [![Build Status](https://travis-ci.org/AJEETX/LongTask.png?branch=master)](https://travis-ci.org/AJEETX/LongTask)
+## An http-service-based continuous long-running task with cancellation pushing progress/update through signalr
+	
+| Release | Build | .Net  | Dependency |
+| ---     | ---   | ---    | ---        |
+|![Wrapper](https://img.shields.io/badge/Long-Task-blue.svg) | [![Build Status](https://travis-ci.org/AJEETX/LongTask.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/LongTask) | [![.Net Framework](https://img.shields.io/badge/DotNet-4.6.1-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=49981) | [![dependencies Status](https://img.shields.io/badge/dependency-none-brightgreen.svg?style=plastic)](https://img.shields.io/badge/dependency-none-brightgreen.svg) |
 
-> [![dependencies Status](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](https://img.shields.io/badge/dependencies-none-brightgreen.svg)
+
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://github.com/AJEETX/LongTask/edit/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
+Having any trouble? Check out our [documentation](https://github.com/AJEETX/LongTask/blob/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
 
 
-> [![HitCount](http://hits.dwyl.io/ajeetx/LongTask/projects/1.svg)](http://hits.dwyl.io/ajeetx/LongTask/projects/1)
+> [![HitCount](http://hits.dwyl.io/ajeetx/LongTask/projects/1.svg)](http://hits.dwyl.io/ajeetx/LongTask/projects/1)]
