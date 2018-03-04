@@ -12,6 +12,7 @@
 
 Having any trouble? Check out our [documentation](https://github.com/AJEETX/LongTask/blob/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
 
+|   |   |   | 
 | --- | --- | --- |
 | [![HitCount](http://hits.dwyl.io/ajeetx/LongTask/projects/1.svg)](http://hits.dwyl.io/ajeetx/LongTask/projects/1)|![license](https://img.shields.io/github/license/ajeetx/LongTask.svg?style=plastic) | ![Github search hit counter](https://img.shields.io/github/search/ajeetx/longtask/goto.svg?style=for-the-badge)
 
