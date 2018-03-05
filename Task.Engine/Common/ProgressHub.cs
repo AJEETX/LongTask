@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
-namespace Engine
+namespace LongTask.Engine
 {
     [HubName("progressHub")]
     public class ProgressHub : Hub

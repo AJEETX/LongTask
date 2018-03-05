@@ -46,7 +46,7 @@
   <ItemGroup>
     <Reference Include="LongTask.Engine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Task.Engine\bin\Debug\LongTask.Engine.dll</HintPath>
+      <HintPath>..\Task.Engine\bin\Release\LongTask.Engine.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">

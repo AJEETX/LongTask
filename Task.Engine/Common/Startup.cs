@@ -1,6 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
-namespace Engine
+namespace LongTask.Engine
 {
     public class Startup
     {
