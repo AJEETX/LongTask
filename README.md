@@ -14,4 +14,4 @@ Having any trouble? Check out our [documentation](https://github.com/AJEETX/Long
 
 |  Counter   | Contributor | Disclaimer |
 | ---        |   ---       | ---         |
-| [![HitCount](http://hits.dwyl.io/ajeetx/LongTask/projects/1.svg?style=plastic)](http://hits.dwyl.io/ajeetx/LongTask/projects/1)| | ![GitHub contributors](https://img.shields.io/github/contributors/ajeetx/EntityFrameworkWrapper.svg?style=plastic)|![license](https://img.shields.io/github/license/ajeetx/LongTask.svg?style=plastic) |
+| [![HitCount](http://hits.dwyl.io/ajeetx/LongTask/projects/1.svg?style=plastic)](http://hits.dwyl.io/ajeetx/LongTask/projects/1)| ![GitHub contributors](https://img.shields.io/github/contributors/ajeetx/LongTask.svg?style=plastic)|![license](https://img.shields.io/github/license/ajeetx/LongTask.svg?style=plastic) |
