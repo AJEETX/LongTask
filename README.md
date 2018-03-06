@@ -4,8 +4,20 @@
 | ---     | ---   | ---    | ---        | ---      | ---        | 
 |![Github commits (since latest release)](https://img.shields.io/github/commits-since/ajeetx/longtask/latest.svg) | [![Build Status](https://travis-ci.org/AJEETX/LongTask.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/LongTask) | [![.Net Framework](https://img.shields.io/badge/DotNet-4.6.1-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=49981) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/Carz.svg?style=plastic) | ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/LongTask.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/LongTask.svg) 
 
-## An http-service-based continuous long-running task with cancellation pushing progress/update through signalr
+## Purpose of statement
+```
+The project intends to have 
+ (a) an http-service-based continuous long-running task with cancellation
+ (b) Pushing real-time progress/update through Signalr
+```
 
+#### Application list and details
+
+| App Name| Type | Comments|
+| --- | --- | --- |
+| Task.Engine| Class Library | business logic|
+| Console.Task| Console |Can be as startup project|
+| Webby | MVC  |Can be as startup project|
 
 ### Support or Contact
 
