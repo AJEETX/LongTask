@@ -1,4 +1,4 @@
-# LongTask ![GitHub release](https://img.shields.io/github/release/ajeetx/LongTask.svg?style=for-the-badge)![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)
+# LongTask ![GitHub release](https://img.shields.io/github/release/ajeetx/LongTask.svg?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)
 
 | ![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/LongTask.svg?style=plastic) | ![Website](https://img.shields.io/website-stable-offline-green-red/http/ajeetx.github.io/LongTask.svg?label=status&style=plastic)|[![Build Status](https://travis-ci.org/AJEETX/LongTask.png?branch=master&style=for-the-badge)](https://travis-ci.org/AJEETX/LongTask)
 |  --- | ---     | ---   |
