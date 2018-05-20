@@ -57,8 +57,8 @@ function ProgressBarModal(showHide) {
         }
         window.progressBarActive = true;
     } else {
-        $('#btnStartProcess').fadeIn('fast');
         $('#btnStopProcess').fadeOut('fast');
+        $('#btnStartProcess').fadeIn('fast');
         $("fieldset").css({ "display": "none" });
         $("#runningService").css({ "display": "none" });
         running = false;
